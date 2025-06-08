@@ -13,16 +13,16 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22923037'))
-API_HASH = environ.get('API_HASH', 'dfb3666878b3851460a58461c5a50f5b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7897480401:AAGbUF_e1YHl7e8ET4PUGX9ZZHaWSqQiYdU')
+API_ID = int(environ.get('API_ID', '18579024'))
+API_HASH = environ.get('API_HASH', '124981da628d86e21ee492da77cd4037')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7053311287:AAHLgmUL2KINNb50qA5X1Svmnt2a0ssnvFg')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6554343173').split()]
-USERNAME = environ.get('USERNAME', "vighnesh9820") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002561871194'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/Moviesvicky_bot')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002617599866').split()]
+USERNAME = environ.get('USERNAME', "Donking88_bot") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002677298480,-1002445585006'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/Donking88_bot')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002806554507').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vikassonawale0:JWyQFas7vlG1bkaL@cluster0.beermge.mongodb.net/?retryWrites=true&w=majority")
