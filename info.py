@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22923037'))
 API_HASH = environ.get('API_HASH', 'dfb3666878b3851460a58461c5a50f5b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7854350650:AAEDbZswa9WMS-h3ybkPeUDYvpIyhKEBqP0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7932160655:AAHbI9Xb151TguwghvoPrPmLOnarl3goRVQ')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7726207129').split()]
-USERNAME = environ.get('USERNAME', "@VikasXpython_bot") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002604323075'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/VikasXpython_bot')
+USERNAME = environ.get('USERNAME', "Demonvickuu_bot") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002436985982'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/Demonvickuu_bot')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002878346800').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
